@@ -1,0 +1,9 @@
+node_modules/
+session-config*.json
+transcript-*.json
+picked-hand.json
+*.mp4
+*.wav
+*.png
+*.log
+out/

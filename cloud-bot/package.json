@@ -1,0 +1,11 @@
+{
+  "name": "handforge-cloud-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-free Socket.IO bot client for HandForge Poker (cloud routine use)",
+  "main": "run-session.js",
+  "dependencies": {
+    "socket.io-client": "^4.7.2",
+    "node-fetch": "^2.7.0"
+  }
+}
