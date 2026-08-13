@@ -1,0 +1,224 @@
+{
+  "hand": {
+    "handNumber": 1,
+    "mode": "race",
+    "pot": 224,
+    "board": [
+      {
+        "suit": "♦",
+        "rank": "2",
+        "value": 2
+      },
+      {
+        "suit": "♠",
+        "rank": "A",
+        "value": 14
+      },
+      {
+        "suit": "♠",
+        "rank": "3",
+        "value": 3
+      },
+      {
+        "suit": "♦",
+        "rank": "K",
+        "value": 13
+      },
+      {
+        "suit": "♥",
+        "rank": "A",
+        "value": 14
+      }
+    ],
+    "actions": [
+      {
+        "player": "handforge_bot2",
+        "action": "check"
+      },
+      {
+        "player": "handforge_bot3",
+        "action": "check"
+      },
+      {
+        "player": "handforge_bot4",
+        "action": "check"
+      },
+      {
+        "player": "handforge_bot1",
+        "action": "check"
+      },
+      {
+        "player": "handforge_bot2",
+        "action": "raise",
+        "amount": 48
+      },
+      {
+        "player": "handforge_bot3",
+        "action": "call",
+        "amount": 48
+      },
+      {
+        "player": "handforge_bot4",
+        "action": "fold"
+      },
+      {
+        "player": "handforge_bot1",
+        "action": "call",
+        "amount": 48
+      },
+      {
+        "player": "handforge_bot2",
+        "action": "check"
+      },
+      {
+        "player": "handforge_bot3",
+        "action": "check"
+      },
+      {
+        "player": "handforge_bot1",
+        "action": "check"
+      }
+    ],
+    "picks": [],
+    "result": {
+      "winner": "handforge_bot2",
+      "amount": 224,
+      "hand": "Две пары",
+      "cards": [
+        {
+          "suit": "♠",
+          "rank": "J",
+          "value": 11
+        },
+        {
+          "suit": "♠",
+          "rank": "K",
+          "value": 13
+        },
+        {
+          "suit": "♠",
+          "rank": "A",
+          "value": 14
+        },
+        {
+          "suit": "♦",
+          "rank": "K",
+          "value": 13
+        },
+        {
+          "suit": "♥",
+          "rank": "A",
+          "value": 14
+        }
+      ],
+      "winnerHand": [
+        {
+          "suit": "♠",
+          "rank": "J",
+          "value": 11
+        },
+        {
+          "suit": "♠",
+          "rank": "K",
+          "value": 13
+        }
+      ],
+      "winningHoleCards": [
+        {
+          "suit": "♠",
+          "rank": "J",
+          "value": 11
+        },
+        {
+          "suit": "♠",
+          "rank": "K",
+          "value": 13
+        }
+      ],
+      "pots": [
+        {
+          "amount": 80,
+          "handName": "Две пары",
+          "winners": [
+            "handforge_bot2"
+          ]
+        },
+        {
+          "amount": 144,
+          "handName": "Две пары",
+          "winners": [
+            "handforge_bot2"
+          ]
+        }
+      ],
+      "winners": [
+        {
+          "name": "handforge_bot2",
+          "amount": 224,
+          "hand": "Две пары",
+          "winningHoleCards": [
+            {
+              "suit": "♠",
+              "rank": "J",
+              "value": 11
+            },
+            {
+              "suit": "♠",
+              "rank": "K",
+              "value": 13
+            }
+          ]
+        }
+      ],
+      "revealedHands": [
+        {
+          "name": "handforge_bot1",
+          "hand": [
+            {
+              "suit": "♥",
+              "rank": "J",
+              "value": 11
+            },
+            {
+              "suit": "♣",
+              "rank": "9",
+              "value": 9
+            }
+          ]
+        },
+        {
+          "name": "handforge_bot2",
+          "hand": [
+            {
+              "suit": "♠",
+              "rank": "J",
+              "value": 11
+            },
+            {
+              "suit": "♠",
+              "rank": "K",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "name": "handforge_bot3",
+          "hand": [
+            {
+              "suit": "♦",
+              "rank": "10",
+              "value": 10
+            },
+            {
+              "suit": "♠",
+              "rank": "2",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "mode": "race",
+  "transcriptPath": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\claude\\C--Users-Lenovo-Desktop-photo-quest\\84dbabd5-0e0a-4f1b-bcd3-d8dac995d4ff\\scratchpad\\handforge-social\\cloud-bot\\transcript-1786612144170.json"
+}
